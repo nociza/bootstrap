@@ -1,0 +1,27 @@
+# Next.js specific
+.next/
+out/
+next-env.d.ts
+
+# Testing
+coverage/
+
+# Production
+build/
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+
+# PWA files
+public/sw.js
+public/workbox-*.js
+
+# Sentry
+.sentryclirc
+
+# Sitemap
+public/sitemap*.xml
+public/robots.txt

@@ -12,6 +12,21 @@
     "DISABLE_NON_ESSENTIAL_MODEL_CALLS": "0"
   },
   "includeCoAuthoredBy": false,
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(npx:*)",
+      "Bash(rm:*)",
+      "Bash(true)",
+      "Bash(npx create-react-native-app:*)",
+      "Bash(npx create-expo-app:*)",
+      "Bash(npm install:*)",
+      "Bash(npx create-next-app:*)",
+      "Bash(npm init:*)",
+      "Bash(npx tailwindcss init:*)",
+      "Bash(touch:*)"
+    ]
+  },
   "model": "opus",
   "forceLoginMethod": "claudeai"
 }
