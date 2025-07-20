@@ -66,6 +66,10 @@ PORT=8000
 EOF
 fi
 
+# Add alias for dev command
+echo "🔗 Setting up dev alias..."
+echo 'alias dev="claude --dangerously-skip-permissions"' >> ~/.bashrc
+
 echo "✅ Post-create setup complete!"
 echo ""
 echo "📋 Next steps:"
