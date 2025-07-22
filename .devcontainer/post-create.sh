@@ -3,6 +3,10 @@ set -e
 
 echo "🔧 Running post-create setup..."
 
+# Fix ownership of workspace directories
+echo "🔐 Fixing ownership of workspace directories..."
+sudo chown -R node:node /workspace/backend /workspace/mobile /workspace/web 2>/dev/null || true
+
 # Ensure uv is in PATH
 export PATH="$HOME/.cargo/bin:$PATH"
 

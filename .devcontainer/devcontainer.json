@@ -16,7 +16,8 @@
         "ms-python.python",
         "ms-python.vscode-pylance",
         "ms-python.debugpy",
-        "charliermarsh.ruff"
+        "charliermarsh.ruff",
+        "anthropic.claude-dev"
       ],
       "settings": {
         "editor.formatOnSave": true,
