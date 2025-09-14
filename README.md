@@ -1,4 +1,4 @@
-# Claude Container Scaffolding
+# Project Bootstrapping Boilerplate
 
 This repository serves as a scaffolding template to bootstrap development projects. It provides a foundational structure with pre-configured development containers, mobile and web applications, and backend infrastructure to accelerate the initial setup phase of new projects.
 
