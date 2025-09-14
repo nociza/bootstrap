@@ -1,0 +1,3 @@
+[submodule "chromext"]
+	path = chromext
+	url = https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite.git
