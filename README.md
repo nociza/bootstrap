@@ -49,3 +49,18 @@ cd ..
 git add chromext
 git commit -m "Update chromext submodule to latest version"
 ```
+
+#### Converting Submodule to Regular Folder
+
+If you want to use this scaffold without the submodule dependency (recommended for new projects), you can convert the chromext submodule to a regular folder:
+
+```bash
+# Install just if you haven't already
+# brew install just  # macOS
+# cargo install just # or via Cargo
+
+# Convert chromext from submodule to regular folder
+just detach-chromext
+```
+
+This will remove the git submodule relationship while keeping all the files, allowing you to modify the Chrome extension code directly as part of your project.
